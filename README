@@ -1,0 +1,12 @@
+java code
+This program first creates a 2d array to store the outputs of all possible (n,k) combinations.
+
+For several special cases of (n,k) combinations, the function returns their outputs immediately.
+Otherwise, the nxn board is divided into two different boards, odd and even (named because of the 
+length of the array representing them). Then use backtracking to find the ways to put 0 to k number 
+of bishops into one of the boards without two of the bishops in the attacking positions. After, use 
+combinatorics to calculate all the possible ways of arranging (0,k), (1,k-1), (2,k-2)... (k,0) bishops
+in the (odd board,even board). 
+
+After computing all possible outputs, simply output the corresponding number for a specific (n,k) input
+from the 2d array. 

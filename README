@@ -10,3 +10,8 @@ in the (odd board,even board).
 
 After computing all possible outputs, simply output the corresponding number for a specific (n,k) input
 from the 2d array. 
+
+Possible improvement: 
+1) Use dynamic programming to remove redundancies. 
+2) Instead of using backtracking, implement an algorithm to calculate the ways of arranging
+bishops without two bishops in the attacking positions. 
